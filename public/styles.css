@@ -31211,6 +31211,18 @@ video {
   width: 6rem;
 }
 
+.btn-1{
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 0.05em;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

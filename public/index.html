@@ -10,9 +10,9 @@
 </head>
 
 <body class="text-gray-400">
-    <div>
+    <div class="md:grid grid-cols-10">
         <!-- Content Wrapper -->
-        <div>
+        <div class="md:col-span-2">
             <nav>
                 <div>
                     <h1 class="p-16 font-bold font-secondary">
@@ -40,10 +40,10 @@
             </nav>
         </div>
         <!-- End Content -->
-        <main class="px-16 py-8 bg-gray-100">
+        <main class="px-16 py-8 bg-gray-100 md:col-span-8">
             <div class="flex justify-center sm:justify-end">
-                <a href="#">Log In</a>
-                <a href="#" class="ml-4">Sign Up</a>
+                <a href="#" class="btn-1 text-purple-400 border-purple-400 hover:bg-purple-200 md:border-2">Log In</a>
+                <a href="#" class="btn-1 ml-2 text-purple-400 border-purple-400 hover:bg-purple-200 md:border-2">Sign Up</a>
             </div>
             <header>
                 <h2>Recipes</h2>
@@ -51,8 +51,8 @@
             </header>
 
             <div>
-                <h4 class="font-bold mt-12 pb-6 border-b-2 border-gray-500 text-2xl">Latest Recipes</h4>
-                <div class="mt-8 grid grid-cols-3 gap-12">
+                <h4 class="font-bold mt-12 pb-6 border-b-2 border-gray-200 text-2xl text-gray-800">Latest Recipes</h4>
+                <div class="mt-8 grid md:grid-cols-3 gap-12">
                     <!-- Card Go Here! -->
                     <div class="card">
                         <img src="img/broccoli.jpg" alt="broccoli" class="w-full object-cover" alt="">
@@ -84,6 +84,10 @@
                             <span>25 Mins</span>
                         </div>
                     </div>
+                </div>
+                <h4 class="font-bold mt-12 pb-6 border-b-2 border-gray-200 text-2xl text-gray-800">Most Popular</h4>
+                <div class="flex justify-center">
+                    <div class="btn-1 r p-4 m-4 bg-blue-600 text-white">Load More</div>
                 </div>
             </div>
         </main>
