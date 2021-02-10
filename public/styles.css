@@ -31190,7 +31190,7 @@ video {
   border-radius: 0.5rem;
   overflow: hidden;
   position: relative;
-  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -31199,7 +31199,8 @@ video {
   background-color: rgba(167, 139, 250, var(--tw-bg-opacity));
   --tw-bg-opacity: 0.75;
   border-radius: 9999px;
-  font-weight: 700;
+  justify-content: center;
+  font-weight: 500;
   margin: 1rem;
   padding: 0.25rem;
   position: absolute;

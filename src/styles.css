@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 .card {
-    @apply rounded-lg overflow-hidden shadow-2xl relative;
+    @apply rounded-lg overflow-hidden shadow-lg relative;
 }
 
 .badged {
-    @apply bg-purple-400 bg-opacity-75 p-1 w-24 text-white text-center rounded-full absolute top-0 m-4 font-bold uppercase;
+    @apply bg-purple-400 bg-opacity-75 p-1 w-24 text-white text-center rounded-full absolute top-0 m-4 font-medium uppercase justify-center;
 }
 
 .btn-1{
