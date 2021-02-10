@@ -192,6 +192,10 @@ module.exports = {
       ],
     },
     fontSize: {
+<<<<<<< HEAD
+=======
+      mammoth: ['8rem', { lineHeight: '1rem' }],
+>>>>>>> 19894e6 (Add tailwindcss files)
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
