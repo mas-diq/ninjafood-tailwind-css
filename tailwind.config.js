@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: {
-          ['Montserrat']
+        primary: ['Montserrat Subrayada'],
+        secondary: ['Montserrat']
       }
     },
   },
