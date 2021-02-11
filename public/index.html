@@ -10,15 +10,22 @@
 </head>
 
 <body class="text-gray-400">
-    <div class="grid md:grid-cols-12">
+    <div class="grid md:grid-cols-3">
         <!-- Content Wrapper -->
-        <div class="md:col-span-3">
+        <div class="md:col-span-1 md:flex md:justify-end">
             <nav class="text-right">
-                <div>
+                <div class="flex justify-between">
                     <h1 class="p-16 font-bold font-secondary">
                         <a class="text-4xl text-purple-600 hover:text-purple-300">
                             Food Ninja</a>
                     </h1>
+                </div>
+                <div class="px-4 cursor-pointer md:hidden">
+                    <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
                 </div>
                 <ul>
                     <li class="text-gray-800">
@@ -55,7 +62,7 @@
             </nav>
         </div>
         <!-- End Content -->
-        <main class="px-16 py-8 bg-gray-100 md:col-span-9">
+        <main class="px-16 py-8 bg-gray-100 md:col-span-2">
             <div class="flex justify-center sm:justify-end">
                 <a href="#"
                     class="btn-1 text-purple-400 border-purple-400 hover:bg-purple-400 hover:text-white md:border-2">Log
@@ -120,12 +127,150 @@
                             <span>25 Mins</span>
                         </div>
                     </div>
+                    <div class="card hover:shadow-2xl">
+                        <img src="img/broccoli.jpg" alt="broccoli" class="w-full object-cover" alt="">
+                        <div class="m-6">
+                            <span class="font-bold text-lg text-gray-800">5 Bean Chilli Stew</span>
+                            <span class="block text-sm text-gray-500">Recepie by mario</span>
+                        </div>
+                        <div class="badged">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>25 Mins</span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-2xl">
+                        <img src="img/pancake.jpg" alt="pancake" class="w-full object-cover" alt="">
+                        <div class="m-6">
+                            <span class="font-bold text-lg text-gray-800">Chocolate Pancake</span>
+                            <span class="block text-sm text-gray-500">Recepie by mario</span>
+                        </div>
+                        <div class="badged">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>25 Mins</span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-2xl">
+                        <img src="img/salad.jpg" alt="salad" class="w-full object-cover" alt="">
+                        <div class="m-6">
+                            <span class="font-bold text-lg text-gray-800">Fresh Salad</span>
+                            <span class="block text-sm text-gray-500">Recepie by mario</span>
+                        </div>
+                        <div class="badged">
+                            <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>25 Mins</span>
+                        </div>
+                    </div>
                 </div>
                 <h4
                     class="font-bold mt-12 pb-6 border-b-2 border-gray-200 text-2xl text-gray-800 hover:text-purple-400">
                     Most Popular</h4>
                 <div class="flex justify-center">
-                    <div class="btn-1 r p-4 m-4 bg-blue-600 text-white hover:shadow-2xl">Load More</div>
+                    <div class="mt-8 grid md:grid-cols-3 gap-12">
+                        <!-- Card Go Here! -->
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/broccoli.jpg" alt="broccoli" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">5 Bean Chilli Stew</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/pancake.jpg" alt="pancake" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">Chocolate Pancake</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/salad.jpg" alt="salad" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">Fresh Salad</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/broccoli.jpg" alt="broccoli" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">5 Bean Chilli Stew</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/pancake.jpg" alt="pancake" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">Chocolate Pancake</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="card hover:shadow-2xl">
+                            <img src="img/salad.jpg" alt="salad" class="w-full object-cover" alt="">
+                            <div class="m-6">
+                                <span class="font-bold text-lg text-gray-800">Fresh Salad</span>
+                                <span class="block text-sm text-gray-500">Recepie by mario</span>
+                            </div>
+                            <div class="badged">
+                                <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>25 Mins</span>
+                            </div>
+                        </div>
+                        <div class="btn-1 px-2 bg-blue-600 text-white hover:shadow-2xl flex justify-center">Load More</div>
+                    </div>
                 </div>
             </div>
         </main>
